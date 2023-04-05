@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    /* margin: 0; */
+    border: 10px groove greenyellow;
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.upper_section{
+    display: flex;
+}
+.box{
+    color:white;
+    font:italic bold 30px "Times New Roman", serif;
+    text-align: center;
+    background-color: black;
+    border: 7px solid red;
+    border-radius: 35px;    
+}
+.leftbox{
+    width: 500px;
+    height: 180px;
+    margin: 20px -200px 20px 20px;
+    padding: 25px 30px 20px 15px  ;
+}
+.centerbox{
+    width: 550px;
+    height: 80px;
+    margin: 30px 20px 25px 20px;
+    padding: 30px 15px 10px 45px ;
+    font-weight: normal;
+}
+.rightbox{
+    width: 500px;
+    height: 180px;
+    margin: 10px 10px 20px 150px;
+    padding: 10px 40px 0px 40px ;
+    line-height: 50px;
+}
+.middle_section{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle{
+    border: 10px solid gray;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: mediumturquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -50px;
+}
+.cir{
+    font: italic bold 30px "Times New Roman", serif ;
+    text-align: center;
+    text-decoration: underline ;
+}
+.cir1{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+.cir2{
+    border-top: 3px groove ghostwhite;
+    border-bottom: 3px groove ghostwhite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* margin-bottom: 10px; */
+}
+.cir3{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.big_form{
+    height: 700px;
+    width: 500px;
+    border: 10px dashed red;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.form{
+    color: tomato;
+}
+.place{
+    text-align:center;
+}
+.place2{
+    padding: 3px;
+}
+
+.middle_box{
+    width: 500px;
+    height: 100px;
+    padding-top: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.lower_section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;    
+}
+
+.menubar{
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    color: blue;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+.lastmenu{
+    height: 350px;
+}
